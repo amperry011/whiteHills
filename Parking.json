@@ -1,0 +1,56 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "Name" : "Name",
+    "Parking" : "Parking"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 102100,
+    "latestWkid" : 3857
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "Name",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 50
+    },
+    {
+      "name" : "Parking",
+      "type" : "esriFieldTypeString",
+      "alias" : "Parking",
+      "length" : 10
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1,
+        "Name" : "Secondary ",
+        "Parking" : "Parking"
+      },
+      "geometry" : {
+        "x" : -5864728.8527000006,
+        "y" : 6039622.7129999995
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 2,
+        "Name" : "Main",
+        "Parking" : "Parking"
+      },
+      "geometry" : {
+        "x" : -5864466.6874000002,
+        "y" : 6038799.3902999982
+      }
+    }
+  ]
+}
